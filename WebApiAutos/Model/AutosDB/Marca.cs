@@ -10,7 +10,7 @@ namespace WebApiAutos.Model.AutosDB
             Autos = new HashSet<Autos>();
         }
 
-        public int IdMarca { get; set; }
+        public Guid IdMarca { get; set; }
         public string NombreMarca { get; set; }
 
         public ICollection<Autos> Autos { get; set; }
